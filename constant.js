@@ -12,16 +12,16 @@ console.log(PI);
 
 // cannot declare a constant with the same name as a function
 function heena() {};
-// const chaal = 10;  // SyntaxError
+// const heena = 10;  // SyntaxError
 
 
 // cannot declare a constant with the same name as a variable
 function thaseen() {
-  const heena = 20;
-  console.log(heena);
+  const thaseen = 20;
+  console.log(thaseen);
   // var heena;  // SyntaxError
 }
-heena();
+thaseen();
 
 // Properties of objects assigned to Constants
 const HEENA_THASEEN= {'firstName': 'heena'};
