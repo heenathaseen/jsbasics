@@ -24,6 +24,6 @@ function thaseen() {
 heena();
 
 // Properties of objects assigned to Constants
-const CHAAL_PRITAM = {'firstName': 'heena'};
-CHAAL_PRITAM.lastName = 'thaseen';
+const HEENA_THASEEN= {'firstName': 'heena'};
+HEENA_THASEEN.lastName = 'thaseen';
 console.log(HEENA_THASEEN);
